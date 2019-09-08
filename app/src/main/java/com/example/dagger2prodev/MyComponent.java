@@ -5,9 +5,9 @@ import javax.inject.Singleton;
 
 import dagger.Component;
 
-@Singleton
+@Singleton //both need the singleton
 @Component(modules = MyModule.class)
-public interface MyComponet {
+public interface MyComponent {
 
     void inject(MainActivity mainActivity);
 }
